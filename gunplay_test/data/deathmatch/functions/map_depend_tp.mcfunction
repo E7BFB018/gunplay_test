@@ -1,0 +1,15 @@
+execute if score gamemap gamedata matches 0 run tp @s[team=watch] 684 13 258
+execute if score gamemap gamedata matches 0 run spreadplayers 681 197 0.5 2 false @s[team=red] 
+execute if score gamemap gamedata matches 0 run spreadplayers 696 314 0.5 2 false @s[team=blue]
+execute if score gamemap gamedata matches 1 run tp @s[team=watch] 673 8 -146
+execute if score gamemap gamedata matches 1 run spreadplayers 653 -163 0.5 2 under -10 false @s[team=red] 
+execute if score gamemap gamedata matches 1 run spreadplayers 677 -116 0.5 2 under -8 false @s[team=blue]
+execute if score gamemap gamedata matches 2 run tp @s[team=watch] 289 17 -396
+execute if score gamemap gamedata matches 2 run spreadplayers 311 -396 0.5 2 under 8 false @s[team=red] 
+execute if score gamemap gamedata matches 2 run spreadplayers 267 -398 0.5 2 under 9 false @s[team=blue]
+execute if score gamemap gamedata matches 3 run tp @s[team=watch] 569 -7 -378
+execute if score gamemap gamedata matches 3 run spreadplayers 618 -359 0.5 2 under -10 false @s[team=red] 
+execute if score gamemap gamedata matches 3 run spreadplayers 561 -374 0.5 2 under -10 false @s[team=blue]
+execute if score gamemap gamedata matches 4 run tp @s[team=watch] 547 -7 224
+execute if score gamemap gamedata matches 4 run spreadplayers 547 197 0.5 2 under -10 false @s[team=red] 
+execute if score gamemap gamedata matches 4 run spreadplayers 547 241 0.5 2 under -10 false @s[team=blue]
