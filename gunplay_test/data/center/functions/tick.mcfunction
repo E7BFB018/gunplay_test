@@ -4,6 +4,9 @@ effect give @a saturation infinite 4 true
 effect give @a parcool:inexhaustible infinite 4 true
 item replace entity @a[team=test] inventory.0 with tacz:ammo_box{AllTypeCreative:1b} 1
 execute as @e[type=interaction,name="ak47"] on target run item replace entity @s container.0 with tacz:modern_kinetic_gun{GunCurrentAmmoCount:4,GunFireMode:"SEMI",GunId:"fight:ak47",HasBulletInBarrel:1b} 1
+execute as @e[type=interaction,name="lw3"] on target run item replace entity @s container.0 with tacz:modern_kinetic_gun{GunCurrentAmmoCount:4,GunFireMode:"SEMI",GunId:"fight:lw3",HasBulletInBarrel:1b} 1
+execute as @e[type=interaction,name="scar_h"] on target run item replace entity @s container.0 with tacz:modern_kinetic_gun{GunCurrentAmmoCount:4,GunFireMode:"SEMI",GunId:"fight:scar_dm",HasBulletInBarrel:1b} 1
+execute as @e[type=interaction,name="vector45_lbs"] on target run item replace entity @s container.0 with tacz:modern_kinetic_gun{GunCurrentAmmoCount:4,GunFireMode:"SEMI",GunId:"fight:vector45_lbs",HasBulletInBarrel:1b} 1
 execute as @e[type=interaction,name="awp"] on target run item replace entity @s container.0 with tacz:modern_kinetic_gun{GunCurrentAmmoCount:4,GunFireMode:"SEMI",GunId:"fight:awp",HasBulletInBarrel:1b} 1
 execute as @e[type=interaction,name="m4a1"] on target run item replace entity @s container.0 with tacz:modern_kinetic_gun{GunCurrentAmmoCount:4,GunFireMode:"SEMI",GunId:"fight:m4a1",HasBulletInBarrel:1b} 1
 execute as @e[type=interaction,name="mk14"] on target run item replace entity @s container.0 with tacz:modern_kinetic_gun{GunCurrentAmmoCount:4,GunFireMode:"SEMI",GunId:"fight:mk14",HasBulletInBarrel:1b} 1
@@ -35,3 +38,4 @@ execute as @e[type=interaction,name="加入旁观"] on target run function cente
 execute as @e[type=interaction,name="离开所有队伍"] on target run function center:leave_all
 kill @e[type=item,nbt=!{Item:{id:"tacz:modern_kinetic_gun",Count:1b,tag:{GunId:"fight:c4"}}}]
 execute as @e[type=interaction] run data remove entity @s interaction
+summon interaction ~ ~1.5 ~ {CustomName:'""',CustomNameVisible:true}

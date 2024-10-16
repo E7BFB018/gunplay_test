@@ -17,6 +17,7 @@ execute if score bomb_setted gamedata matches 2 run bossbar set bomb:gametime na
 execute if score bomb_setted gamedata matches 1..2 run bossbar set bomb:gametime max 3600
 execute if score bomb_setted gamedata matches 1..2 run scoreboard players set time gamedata 3600
 #死亡处理
-execute as @a[tag=in_game,team=!watch] if score @s deathcount matches 1 run tag @s add has_died
+execute as @a[tag=in_game,team=!watch] if score @s deathcount matches 1 run function bomb:round_died
 #循环及游戏结束判断
 schedule function bomb:tick 1t
+execute if score red_number gamedata matches 0
