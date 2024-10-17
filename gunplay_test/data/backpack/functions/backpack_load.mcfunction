@@ -1,9 +1,30 @@
 clear @s
-execute if score @s backpack_selected matches 1 run function backpack:backpack_load1
-execute if score @s backpack_selected matches 2 run function backpack:backpack_load2
-execute if score @s backpack_selected matches 3 run function backpack:backpack_load3
-execute if score @s backpack_selected matches 4 run function backpack:backpack_load4
-execute if score @s backpack_selected matches 5 run function backpack:backpack_load5
-execute if score @s backpack_selected matches 6 run function backpack:backpack_load6
-execute if score @s backpack_selected matches 7 run function backpack:backpack_load7
-execute if score @s backpack_selected matches 8 run function backpack:backpack_load8
+execute if score @s backpack_selected matches 1 run scoreboard players operation @s backpack_extract = @s backpack1
+execute if score @s backpack_selected matches 2 run scoreboard players operation @s backpack_extract = @s backpack1
+execute if score @s backpack_selected matches 3 run scoreboard players operation @s backpack_extract = @s backpack3
+execute if score @s backpack_selected matches 4 run scoreboard players operation @s backpack_extract = @s backpack4
+execute if score @s backpack_selected matches 5 run scoreboard players operation @s backpack_extract = @s backpack5
+execute if score @s backpack_selected matches 6 run scoreboard players operation @s backpack_extract = @s backpack6
+execute if score @s backpack_selected matches 7 run scoreboard players operation @s backpack_extract = @s backpack7
+execute if score @s backpack_selected matches 8 run scoreboard players operation @s backpack_extract = @s backpack8
+execute if score @s backpack_extract matches 10..19 run item replace entity @s container.0 with tacz:modern_kinetic_gun{GunCurrentAmmoCount:4,GunFireMode:"SEMI",GunId:"fight:awp",HasBulletInBarrel:1b,DummyAmmo:20} 1
+execute if score @s backpack_extract matches 20..29 run item replace entity @s container.0 with tacz:modern_kinetic_gun{GunCurrentAmmoCount:30,GunFireMode:"AUTO",GunId:"fight:ak47",HasBulletInBarrel:1b,DummyAmmo:240} 1
+execute if score @s backpack_extract matches 30..39 run item replace entity @s container.0 with tacz:modern_kinetic_gun{GunCurrentAmmoCount:10,GunFireMode:"SEMI",GunId:"fight:mk14",HasBulletInBarrel:1b,DummyAmmo:40} 1
+execute if score @s backpack_extract matches 40..49 run item replace entity @s container.0 with tacz:modern_kinetic_gun{GunCurrentAmmoCount:30,GunFireMode:"AUTO",GunId:"fight:mp5",HasBulletInBarrel:1b,DummyAmmo:240} 1
+execute if score @s backpack_extract matches 50..59 run item replace entity @s container.0 with tacz:modern_kinetic_gun{GunCurrentAmmoCount:17,GunFireMode:"AUTO",GunId:"fight:vector45",HasBulletInBarrel:1b,DummyAmmo:170} 1
+execute if score @s backpack_extract matches 60..69 run item replace entity @s container.0 with tacz:modern_kinetic_gun{GunCurrentAmmoCount:10,GunFireMode:"SEMI",GunId:"fight:sks",HasBulletInBarrel:1b,DummyAmmo:40} 1
+execute if score @s backpack_extract matches 70..79 run item replace entity @s container.0 with tacz:modern_kinetic_gun{GunCurrentAmmoCount:30,GunFireMode:"AUTO",GunId:"fight:m4a1",HasBulletInBarrel:1b,DummyAmmo:240} 1
+execute if score @s backpack_extract matches 80..89 run item replace entity @s container.0 with tacz:modern_kinetic_gun{GunCurrentAmmoCount:25,GunFireMode:"AUTO",GunId:"fight:uzi",HasBulletInBarrel:1b,DummyAmmo:200} 1
+execute if score @s backpack_extract matches 90..99 run item replace entity @s container.0 with tacz:modern_kinetic_gun{GunCurrentAmmoCount:2,GunFireMode:"SEMI",GunId:"fight:s686",HasBulletInBarrel:1b,DummyAmmo:40} 1
+execute if score @s backpack_extract matches 100..109 run item replace entity @s container.0 with tacz:modern_kinetic_gun{GunCurrentAmmoCount:80,GunFireMode:"AUTO",GunId:"fight:m249",HasBulletInBarrel:1b,DummyAmmo:240} 1
+execute if score @s backpack_extract matches 110..119 run item replace entity @s container.0 with tacz:modern_kinetic_gun{GunCurrentAmmoCount:8,GunFireMode:"AUTO",GunId:"fight:aa12",HasBulletInBarrel:1b,DummyAmmo:80} 1
+execute if score @s backpack_extract matches 120..129 run item replace entity @s container.0 with tacz:modern_kinetic_gun{GunCurrentAmmoCount:40,GunFireMode:"AUTO",GunId:"fight:rpk",HasBulletInBarrel:1b,DummyAmmo:240} 1
+execute if score @s backpack_extract matches 130..139 run item replace entity @s container.0 with tacz:modern_kinetic_gun{GunCurrentAmmoCount:5,GunFireMode:"SEMI",GunId:"fight:lw3",HasBulletInBarrel:1b,DummyAmmo:30} 1
+execute if score @s backpack_extract matches 140..149 run item replace entity @s container.0 with tacz:modern_kinetic_gun{GunCurrentAmmoCount:17,GunFireMode:"AUTO",GunId:"fight:vector45_lbs",HasBulletInBarrel:1b,DummyAmmo:170} 1
+execute if score @s backpack_extract matches 150..159 run item replace entity @s container.0 with tacz:modern_kinetic_gun{GunCurrentAmmoCount:25,GunFireMode:"AUTO",GunId:"fight:scar_dm",HasBulletInBarrel:1b,DummyAmmo:150} 1
+scoreboard players operation @s backpack_extract %= main_weapon backpack_extract
+execute if score @s backpack_extract matches 1 run item replace entity @s container.1 with tacz:modern_kinetic_gun{GunCurrentAmmoCount:7,GunFireMode:"SEMI",GunId:"fight:deagle",HasBulletInBarrel:1b,DummyAmmo:70} 1
+execute if score @s backpack_extract matches 2 run item replace entity @s container.1 with tacz:modern_kinetic_gun{GunCurrentAmmoCount:20,GunFireMode:"AUTO",GunId:"fight:cz75",HasBulletInBarrel:1b,DummyAmmo:120} 1
+execute if score @s backpack_extract matches 3 run item replace entity @s container.1 with tacz:modern_kinetic_gun{GunCurrentAmmoCount:2,GunFireMode:"BURST",GunId:"fight:supershorty",HasBulletInBarrel:1b,DummyAmmo:20} 1
+execute if score @s backpack_extract matches 4 run item replace entity @s container.1 with tacz:modern_kinetic_gun{GunCurrentAmmoCount:1,GunFireMode:"SEMI",GunId:"fight:rpg7",HasBulletInBarrel:1b,DummyAmmo:1} 1
+execute if score @s backpack_extract matches 5 run item replace entity @s container.1 with tacz:modern_kinetic_gun{GunCurrentAmmoCount:17,GunFireMode:"SEMI",GunId:"fight:glock_17",HasBulletInBarrel:1b,DummyAmmo:170} 1

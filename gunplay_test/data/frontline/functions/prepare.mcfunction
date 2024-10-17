@@ -27,4 +27,5 @@ bossbar set frontline:gametime max 12000
 bossbar set frontline:gametime value 12000
 bossbar set frontline:gametime style notched_10
 bossbar set frontline:gametime players @a[tag=in_game]
+#准备启动游戏
 schedule function frontline:start 5s

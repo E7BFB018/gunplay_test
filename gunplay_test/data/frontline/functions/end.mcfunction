@@ -14,6 +14,9 @@ tag @a remove waiting_for_respawn
 scoreboard players set time gamedata 0
 scoreboard players set @a killnumber 0
 scoreboard players set @a deathcount 0
+scoreboard players set blue_number gamedata 0
+scoreboard players set red_number gamedata 0
+scoreboard players set watch_number gamedata 0
 #移除对局状态栏
 bossbar remove frontline:gametime
 #清空对局事件
