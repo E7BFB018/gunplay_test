@@ -42,5 +42,16 @@ execute as @e[type=interaction,name="加入红队"] on target run function cente
 execute as @e[type=interaction,name="加入蓝队"] on target run function center:join_blue
 execute as @e[type=interaction,name="加入旁观"] on target run function center:join_watch
 execute as @e[type=interaction,name="离开所有队伍"] on target run function center:leave_all
+#地图配置
+execute if score time gamedata matches 0 as @e[type=interaction,name="map1"] on target run scoreboard players set gamemap gamedata 0
+execute if score time gamedata matches 0 as @e[type=interaction,name="map2"] on target run scoreboard players set gamemap gamedata 1
+execute if score time gamedata matches 0 as @e[type=interaction,name="map3"] on target run scoreboard players set gamemap gamedata 2
+execute if score time gamedata matches 0 as @e[type=interaction,name="map4"] on target run scoreboard players set gamemap gamedata 3
+#模式配置
+execute if score time gamedata matches 0 as @e[type=interaction,name="frontline"] on target run scoreboard players set gamemode gamedata 0
+execute if score time gamedata matches 0 as @e[type=interaction,name="deathmatch"] on target run scoreboard players set gamemode gamedata 2
+#开始游戏
+execute if score time gamedata matches 0 as @e[type=interaction,name="启动游戏"] on target run function center:game_start
+execute as @e[type=interaction,name="强制结束游戏"] on target run function center:game_end
 #移除交互事件
 execute as @e[type=interaction] run data remove entity @s interaction
