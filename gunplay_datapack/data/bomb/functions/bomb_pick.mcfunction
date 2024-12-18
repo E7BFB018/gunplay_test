@@ -1,0 +1,2 @@
+item replace entity @s container.2 with tacz:modern_kinetic_gun{GunCurrentAmmoCount:0,GunId:"fight:c4",HasBulletInBarrel:1b,DummyAmmo:0} 1
+kill @e[type=item_display,nbt={item:{id:"tacz:modern_kinetic_gun",Count:1b,tag:{GunId:"fight:c4"}}},sort=nearest,limit=1]
