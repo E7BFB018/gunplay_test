@@ -1,0 +1,104 @@
+{
+  "ammo": "tacz:12g",
+  "rpm": 200,
+  "bullet": {
+    "life": 0.3,
+    "bullet_amount": 16,
+    "damage": 30,
+    "tracer_count_interval": 0,
+    "extra_damage": {
+      "armor_ignore": 0,
+      "head_shot_multiplier": 1.1,
+      "damage_adjust": [
+        {
+          "distance": 2,
+          "damage": 60
+        },
+        {
+          "distance": 5,
+          "damage": 30
+        },
+        {
+          "distance": 10,
+          "damage": 15
+        },
+        {
+          "distance": "infinite",
+          "damage": 5
+        }
+      ]
+    },
+    "speed": 120,
+    "gravity": 0.15,
+    "knockback": 0.875,
+    "friction": 0.05,
+    "ignite": false,
+    "pierce": 1
+  },
+  "ammo_amount": 2,
+  "bolt": "open_bolt",
+  "reload": {
+    "type": "magazine",
+    "feed": {
+      "empty": 1.83,
+      "tactical": 1.23
+    },
+    "cooldown": {
+      "empty": 2.3,
+      "tactical": 1.6
+    }
+  },
+  "draw_time": 0.1,
+  "put_away_time": 0.15,
+  "aim_time": 0.03,
+  "sprint_time": 0.1,
+  "weight": 2.1,
+  "movement_speed": {
+    "base": 0.0,
+    "aim": -0.2,
+    "reload": -0.1
+  },
+  "crawl_recoil_multiplier": 1,
+  "fire_mode": [
+    "burst",
+    "semi"
+  ],
+  "burst_data": {
+    "continuous_shoot": false,
+    "count": 2,
+    "bpm": 600,
+    "min_interval": 0.5
+  },
+  "allow_attachment_types": [],
+  "exclusive_attachments": {
+    "tacz:oem_stock_tactical": {
+      "weight": 2.0,
+      "ads_addend": 0.04,
+      "inaccuracy_addend": -0.125,
+      "recoil_modifier": {
+        "pitch": -0.3,
+        "yaw": -0.2
+      }
+    }
+  },
+  "recoil": {
+    "pitch": [
+      {"time": 0, "value": [5, 5]},
+      {"time": 0.125, "value": [9.5, 9.5]},
+      {"time": 0.5, "value": [-0.25, -0.25]},
+      {"time": 0.65, "value": [0, 0]}
+    ],
+    "yaw": [
+      {"time": 0, "value": [-3, -2.5]},
+      {"time": 0.3, "value": [0.15, 0.25]},
+      {"time": 0.5, "value": [0, 0]}
+    ]
+  },
+  "inaccuracy": {
+    "stand": 12,
+    "move": 15,
+    "sneak": 9,
+    "lie": 8,
+    "aim": 7
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "fight.gun.deagle.name",
+  "display": "fight:deagle_display",
+  "data": "fight:deagle_data",
+  "tooltip": "fight.gun.deagle.desc",
+  "type": "pistol"
+}

@@ -1,0 +1,108 @@
+{
+  "ammo": "tacz:338",
+  "ammo_amount": 4,
+  "extended_mag_ammo_amount": [
+    5,
+    7,
+    10
+  ],
+  "bolt": "manual_action",
+  "rpm": 171,
+  "bullet": {
+    "life": 0.9,
+    "bullet_amount": 1,
+    "damage": 20,
+    "tracer_count_interval": 0,
+    "extra_damage": {
+      "armor_ignore": 0.75,
+      "head_shot_multiplier": 2,
+      "damage_adjust": [
+        {"distance": 3, "damage": 19},
+        {"distance": 20, "damage": 21},
+        {"distance": 70, "damage": 20},
+        {"distance": "infinite", "damage": 18}
+      ]
+    },
+    "speed": 450,
+    "gravity": 0.15,
+    "knockback": 0,
+    "friction": 0.015,
+    "ignite": false,
+    "pierce": 4
+  },
+  "reload": {
+    "type": "magazine",
+    "feed": {
+      "empty": 2.85,
+      "tactical": 2.05
+    },
+    "cooldown": {
+      "empty": 3.25,
+      "tactical": 2.25
+    }
+  },
+  "draw_time": 0.45,
+  "put_away_time": 0.35,
+  "aim_time": 0.4,
+  "sprint_time": 0.25,
+  "bolt_action_time": 0.9,
+  "weight": 6.9,
+  "movement_speed": {
+    "base": 0.0,
+    "aim": -0.6,
+    "reload": -0.1
+  },
+  "crawl_recoil_multiplier": 0.75,
+  "fire_mode": [
+    "semi"
+  ],
+  "recoil": {
+    "pitch": [
+      {"time": 0, "value": [4.0, 4.4]},
+      {"time": 0.28, "value": [4.2, 4.6]},
+      {"time": 0.44, "value": [-1, 0.5]},
+      {"time": 0.65, "value": [0.25, 0.25]},
+      {"time": 0.83, "value": [0, 0]},
+      {"time": 1.1, "value": [0, 0]}
+    ],
+    "yaw": [
+      {"time": 0, "value": [-0.6, 0.5]},
+      {"time": 0.32, "value": [-1.6, -0.5]},
+      {"time": 0.57, "value": [0, 0]}
+    ]
+  },
+  "inaccuracy": {
+    "stand": 18,
+    "move": 22,
+    "sneak": 15,
+    "lie": 10,
+    "aim": 0.05
+  },
+  // 近战相关
+  "melee": {
+    // 枪械距离参数，用来延升近战攻击范围
+    // 会与刺刀等配件的距离做加和
+    "distance": 1,
+    // 使用时的冷却时间
+    "cooldown": 1.0,
+    // 默认近战数据，会被配件的数据替换掉
+    "default": {
+      // 动画类型：没有枪托的为 melee_push，有枪托的为 melee_stock
+      "animation_type": "melee_stock",
+      // 刺刀距离参数，枪械里还有个刺刀攻击距离参数，两者做加和
+      "distance": 1.25,
+      // 刺刀范围角度
+      "range_angle": 30,
+      // 伤害值
+      "damage": 12,
+      // 击退效果
+      "knockback": 1,
+      // 前摇时长，单位：秒
+      "prep": 0.1
+    }
+  },
+  "allow_attachment_types": [],
+  "builtin_attachments": {
+    "scope": "tacz:scope_standard_8x"
+  }
+}

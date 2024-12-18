@@ -1,0 +1,7 @@
+{
+  "name": "fight.gun.awp.name",
+  "display": "fight:awp_display",
+  "data": "fight:awp_data",
+  "tooltip": "fight.gun.awp.desc",
+  "type": "sniper"
+}

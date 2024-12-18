@@ -1,0 +1,8 @@
+{
+  "name": "fight.gun.m4a1.name",
+  "display": "fight:m4a1_display",
+  "data": "fight:m4a1_data",
+  "type": "rifle",
+  "tooltip": "fight.gun.m4a1.desc",
+  "sort": 2
+}

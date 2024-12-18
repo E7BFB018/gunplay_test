@@ -1,0 +1,7 @@
+{
+  "name": "fight.gun.supershorty.name",
+  "display": "fight:supershorty_display",
+  "data": "fight:supershorty_data",
+  "tooltip": "fight.gun.supershorty.desc",
+  "type": "shotgun"
+}

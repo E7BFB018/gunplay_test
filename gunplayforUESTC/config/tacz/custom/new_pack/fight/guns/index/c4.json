@@ -1,0 +1,7 @@
+{
+  "name": "fight.gun.c4.name",
+  "display": "fight:c4_display",
+  "data": "fight:c4_data",
+  "tooltip": "fight.gun.c4.desc",
+  "type": "rpg"
+}

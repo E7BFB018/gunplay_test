@@ -1,0 +1,8 @@
+{
+  "name": "fight.gun.vector45_lbs.name",
+  "display": "fight:vector45_lbs_display",
+  "data": "fight:vector45_lbs_data",
+  "type": "smg",
+  "item_type": "modern_kinetic",
+  "sort": 10
+}

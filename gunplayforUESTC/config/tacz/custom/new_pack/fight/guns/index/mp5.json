@@ -1,0 +1,7 @@
+{
+  "name": "fight.gun.mp5.name",
+  "display": "fight:mp5_display",
+  "data": "fight:mp5_data",
+  "tooltip": "fight.gun.mp5.desc",
+  "type": "smg"
+}

@@ -1,0 +1,68 @@
+{
+
+  "model": "fight:gun/vector45_lbs_geo",
+
+  "texture": "fight:gun/uv/vector45_lbs",
+
+  "slot": "fight:gun/slot/vector45_lbs",
+
+  "third_person_animation": "default",
+  "hud": "fight:gun/hud/vector45_lbs",
+  "sounds": {
+    "shoot": "fight:vector45_lbs/vector_shoot",
+    "shoot_3p": "fight:vector45_lbs/vector_shoot_3p",
+    "silence": "fight:vector45_lbs/vector_silence",
+    "silence_3p": "fight:vector45_lbs/vector_silence_3p",
+    "melee_push": "fight:vector45_lbs/melee_stock_03",
+    "melee_stock": "fight:vector45_lbs/melee_stock_01"
+  },
+  "shell": {
+    "initial_velocity": [ 5, 2, 1 ],
+    "random_velocity": [ 1, 1, 0.25 ],
+    "acceleration": [ 0.0, -10, 0.0 ],
+    "angular_velocity": [ 360, -1200, 90 ],
+    "living_time": 1.0
+  },
+  "muzzle_flash": {
+    "texture": "tacz:flash/common_muzzle_flash",
+    "scale": 0.6
+  },
+
+  "animation": "fight:vector45_lbs",
+  "use_default_animation": "rifle",
+
+  "text_show": {
+    // 定位组名，与模型中的组名对应。
+    "text_pos": {
+      // 文本缩放，默认大小对于 BlockBench 里的 1
+      "scale": 0.35,
+      // 对齐方式:right，center，left
+      "align": "center",
+      // 阴影
+      "shadow": false,
+      // 文本颜色
+      "color": "#5dfdfe",
+      // 亮度:1-15
+      "light": 15,
+      // 支持在语言文件中定义，且支持PlaceholderAPI 风格的占位符
+      // 目前仅支持两个:%player_name% %ammo_count%
+      "text": "%player_name%"
+    },
+    "ammo_count_pos": {
+      // 文本缩放，默认大小对于 BlockBench 里的 1
+      "scale": 0.8,
+      // 对齐方式:right，center，left
+      "align": "center",
+      // 阴影
+      "shadow": false,
+      // 文本颜色
+      "color": "#5dfdfe",
+      // 亮度:1-15
+      "light": 15,
+      // 支持在语言文件中定义，且支持PlaceholderAPI 风格的占位符
+      // 目前仅支持两个:%player_name% %ammo_count%
+      "text": "%ammo_count%"
+    }
+
+  }
+}

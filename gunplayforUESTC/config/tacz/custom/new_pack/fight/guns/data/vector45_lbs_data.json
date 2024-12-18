@@ -1,0 +1,102 @@
+{
+  "ammo": "tacz:45acp",
+  "rpm": 1100,
+  "bullet": {
+    "life": 0.8,
+    "bullet_amount": 1,
+    "damage": 3.2,
+    "tracer_count_interval": 0,
+    "extra_damage": {
+      "armor_ignore": 0.2,
+      "head_shot_multiplier": 1.6,
+      "damage_adjust": [
+        {"distance": 0.5, "damage": 4},
+        {"distance": 12, "damage": 3.6},
+        {"distance": 24, "damage": 3.2},
+        {"distance": 36, "damage": 2.2},
+        {"distance": "infinite", "damage": 1}
+      ]
+    },
+    "speed": 150,
+    "gravity": 0.15,
+    "knockback": 0,
+    "friction": 0.02,
+    "ignite": false,
+    "pierce": 1
+  },
+  "ammo_amount": 17,
+  "extended_mag_ammo_amount": [
+    21,
+    18,
+    42
+  ],
+  "bolt": "closed_bolt",
+  "reload": {
+    "type": "magazine",
+    "feed": {
+      "empty": 2.03,
+      "tactical": 1.67
+    },
+    "cooldown": {
+      "empty": 2.47,
+      "tactical": 2.2
+    }
+  },
+  "draw_time": 0.3,
+  "put_away_time": 0.3,
+  "sprint_time": 0.2,
+  "aim_time": 0.09,
+  "weight": 2.7,
+  "movement_speed": {
+    "base": 0.0,
+    "aim": -0.1,
+    "reload": 0
+  },
+  "crawl_recoil_multiplier": 0.9,
+  "fire_mode": [
+    "auto",
+    "burst",
+    "semi"
+  ],
+  "burst_data": {
+    "continuous_shoot": false,
+    "count": 2,
+    "bpm": 1100,
+    "min_interval": 0.3
+  },
+  "allow_attachment_types": [],
+  "recoil": {
+    "pitch": [
+      {"time": 0, "value": [0, 2.6]},
+      {"time": 0.3, "value": [0.5, 3.2]},
+      {"time": 0.55, "value": [-0.15, 0]},
+      {"time": 0.7, "value": [0, 0]}
+    ],
+    "yaw": [
+      {"time": 0, "value": [-0.1, 0.1]},
+      {"time": 0.12, "value": [-0.05, 0.06]},
+      {"time": 0.3, "value": [0, 0]}
+    ]
+  },
+  "inaccuracy": {
+    "stand": 6,
+    "move": 9,
+    "sneak": 5,
+    "lie": 3,
+    "aim": 1.2
+  },
+  "melee": {
+    "distance": 1,
+    "cooldown": 0.6,
+    "default": {
+      "animation_type": "melee_push",
+      "distance": 1,
+      "range_angle": 40,
+      "cooldown": 0.2,
+      "damage": 12,
+      "knockback": 0.4,
+      "prep": 0.1
+    }
+  },
+  "builtin_attachments": {}
+}

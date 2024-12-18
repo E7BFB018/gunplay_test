@@ -1,0 +1,9 @@
+{
+  "name": "fight.gun.rpk.name",
+  "display": "fight:rpk_display",
+  "data": "fight:rpk_data",
+  "tooltip": "fight.gun.rpk.desc",
+  "type": "mg",
+  "item_type": "modern_kinetic",
+  "sort": 2
+}
