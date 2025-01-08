@@ -1,8 +1,0 @@
-{
-  "name": "lbs.gun.scar_dm.name",
-  "display": "lbs:scar_dm_display",
-  "data": "lbs:scar_dm_data",
-  "tooltip": "lbs.gun.scar_dm.desc",
-  "type": "rifle",
-  "sort": 4
-}

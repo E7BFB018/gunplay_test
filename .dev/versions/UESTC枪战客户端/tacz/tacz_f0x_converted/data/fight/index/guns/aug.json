@@ -1,8 +1,0 @@
-{
-  "name": "fight.gun.aug.name",
-  "display": "fight:aug_display",
-  "data": "fight:aug_data",
-  "type": "rifle",
-  "tooltip": "fight.gun.aug.desc",
-  "sort": 10
-}

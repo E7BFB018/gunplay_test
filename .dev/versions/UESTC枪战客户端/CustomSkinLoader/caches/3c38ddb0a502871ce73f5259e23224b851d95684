@@ -1,9 +1,0 @@
-{
-  "id" : "349d048bbae2420498087494590318b2",
-  "name" : "MIIRinn",
-  "properties" : [ {
-    "name" : "textures",
-    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTcyOTE3ODAzMDI4NiwKICAicHJvZmlsZUlkIiA6ICIzNDlkMDQ4YmJhZTI0MjA0OTgwODc0OTQ1OTAzMThiMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNSUlSaW5uIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2JjNzk1YzNiZGIxYjI2NTQ0ZWJiNWI4NDI1ZmIzNjRiMTdiMTZmNGZmY2M1NTVlNDdiOTdkNGVjMzUwMTI5YTciLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
-  } ],
-  "profileActions" : [ ]
-}

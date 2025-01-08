@@ -1,9 +1,0 @@
-{
-  "id" : "3e4e922783514a34bde8ebe49bcf9c3e",
-  "name" : "small_C_77777",
-  "properties" : [ {
-    "name" : "textures",
-    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTcyOTA4ODE5Njc0OSwKICAicHJvZmlsZUlkIiA6ICIzZTRlOTIyNzgzNTE0YTM0YmRlOGViZTQ5YmNmOWMzZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJzbWFsbF9DXzc3Nzc3IiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2MwY2U0Njk1NWZmZDEyNDA1NzRkZTNkMDVlNzcyZjcxNTdjNmEzMzcwOWFkMDUzN2E5MDJkNmY1YmE5ZWVkOWYiCiAgICB9CiAgfQp9"
-  } ],
-  "profileActions" : [ ]
-}

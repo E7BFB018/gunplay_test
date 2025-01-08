@@ -1,8 +1,0 @@
-{
-  // 弹药的显示名称，可以在语言文件中定义
-  "name": "lbs.ammo.lbsammo.name",
-  // 指定我们在上文中创建的效果文件
-  "display": "lbs:lbsammo_display",
-  // 弹药的最大堆叠数量
-  "stack_size": 60
-}

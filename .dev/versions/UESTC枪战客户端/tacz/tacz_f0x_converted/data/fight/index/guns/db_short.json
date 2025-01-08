@@ -1,7 +1,0 @@
-{
-  "name": "fight.gun.db_short.name",
-  "display": "fight:db_short_display",
-  "data": "fight:db_short_data",
-  "tooltip": "fight.gun.db_short.desc",
-  "type": "shotgun"
-}

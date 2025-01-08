@@ -1,7 +1,0 @@
-{
-  "name": "fight.gun.ump45.name",
-  "display": "fight:ump45_display",
-  "data": "fight:ump45_data",
-  "tooltip": "fight.gun.ump45.desc",
-  "type": "smg"
-}

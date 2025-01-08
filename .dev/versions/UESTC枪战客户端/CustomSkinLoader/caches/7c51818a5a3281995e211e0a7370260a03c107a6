@@ -1,9 +1,0 @@
-{
-  "id" : "8c1e920898a0485790de25d16acbcaf3",
-  "name" : "_Warpcore_2005",
-  "properties" : [ {
-    "name" : "textures",
-    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTcyOTE3Nzk4NDcwMSwKICAicHJvZmlsZUlkIiA6ICI4YzFlOTIwODk4YTA0ODU3OTBkZTI1ZDE2YWNiY2FmMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJfV2FycGNvcmVfMjAwNSIsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84Mzk0ZWVkODE4OTdiYTllNWNiMzg4NDUzY2RlMGY1ZTZjYjg5MDNhODUwMGEzYTZkYzBiYTUzZmQxYTE2MTUyIgogICAgfQogIH0KfQ=="
-  } ],
-  "profileActions" : [ ]
-}

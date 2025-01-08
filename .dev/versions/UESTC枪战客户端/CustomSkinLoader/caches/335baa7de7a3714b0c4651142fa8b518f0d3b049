@@ -1,9 +1,0 @@
-{
-  "id" : "693cc8f95a4f46a0b59103c32b81c479",
-  "name" : "popuraAOKI",
-  "properties" : [ {
-    "name" : "textures",
-    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTcyOTE3Nzk5MDU5NiwKICAicHJvZmlsZUlkIiA6ICI2OTNjYzhmOTVhNGY0NmEwYjU5MTAzYzMyYjgxYzQ3OSIsCiAgInByb2ZpbGVOYW1lIiA6ICJwb3B1cmFBT0tJIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzU3ZTQ5ODlhYjU2Njg3Nzk1NWE3MGQyMjVjNTEyNjNhNzg0MDUxZWY5NTQ4ZmMxYjUwM2M1NTllMWM1ZDE1YmQiCiAgICB9CiAgfQp9"
-  } ],
-  "profileActions" : [ ]
-}

@@ -1,8 +1,0 @@
-{
-  "name": "fight.gun.hk416d.name",
-  "display": "fight:hk416d_display",
-  "data": "fight:hk416d_data",
-  "type": "rifle",
-  "tooltip": "fight.gun.hk416d.desc",
-  "sort": 2
-}

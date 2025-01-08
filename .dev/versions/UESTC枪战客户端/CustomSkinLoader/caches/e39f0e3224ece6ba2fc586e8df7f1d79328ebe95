@@ -1,9 +1,0 @@
-{
-  "id" : "781faafe5f534878a4554651788aa564",
-  "name" : "La2tBreath",
-  "properties" : [ {
-    "name" : "textures",
-    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTcyOTE3ODAzMDYyMSwKICAicHJvZmlsZUlkIiA6ICI3ODFmYWFmZTVmNTM0ODc4YTQ1NTQ2NTE3ODhhYTU2NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJMYTJ0QnJlYXRoIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzM5ZTliNWI2YTgzMzZhMjVmY2RmMDhkMTY3MjkyNGI1MTgwNzVkZGNkMTUwMzQ2YjA1YjJkMjY5ZmVjNzkxOWYiCiAgICB9CiAgfQp9"
-  } ],
-  "profileActions" : [ ]
-}
