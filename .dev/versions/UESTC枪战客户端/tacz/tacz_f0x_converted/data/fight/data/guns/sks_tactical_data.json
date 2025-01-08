@@ -1,0 +1,115 @@
+{
+  "ammo": "tacz:762x39",
+  "ammo_amount": 7,
+  "extended_mag_ammo_amount": [
+    15,
+    20,
+    25
+  ],
+  "bolt": "closed_bolt",
+  "rpm": 150,
+  "bullet": {
+    "life": 0.8,
+    "bullet_amount": 1,
+    "damage": 11,
+    "tracer_count_interval": 0,
+    "extra_damage": {
+      "armor_ignore": 0.25,
+      "head_shot_multiplier": 1.5,
+      "damage_adjust": [
+        {"distance": 45, "damage": 11},
+        {"distance": 65, "damage": 10},
+        {"distance": 110, "damage": 8},
+        {"distance": "infinite", "damage": 6}
+      ]
+    },
+    "speed": 420,
+    "gravity": 0.15,
+    "knockback": 0,
+    "friction": 0.0125,
+    "ignite": false,
+    "pierce": 1
+  },
+  "reload": {
+    "type": "magazine",
+    "feed": {
+      "empty": 2.12,
+      "tactical": 1.55
+    },
+    "cooldown": {
+      "empty": 2.78,
+      "tactical": 2.14
+    }
+  },
+  "draw_time": 0.58,
+  "put_away_time": 0.5,
+  "aim_time": 0.45,
+  "sprint_time": 0.22,
+  "weight": 6.5,
+  "movement_speed": {
+    "base": 0.1,
+    "aim": -0.02,
+    "reload": 0
+  },
+  "crawl_recoil_multiplier": 0.5,
+  "fire_mode": [
+    "semi"
+  ],
+  "recoil": {
+    "pitch": [
+      {"time": 0, "value": [3.85, 3.95]},
+      {"time": 0.3, "value": [1.25, 1.25]},
+      {"time": 0.45, "value": [-0.35, -0.225]},
+      {"time": 0.5, "value": [0.1, 0.15]},
+      {"time": 0.6, "value": [0, 0]}
+    ],
+    "yaw": [
+      {"time": 0, "value": [-0.95, 0.95]},
+      {"time": 0.3, "value": [-0.35, 0.15]},
+      {"time": 0.4, "value": [0, 0]}
+    ]
+  },
+  "inaccuracy": {
+    "stand": 10,
+    "move": 11,
+    "sneak": 4,
+    "lie": 4,
+    "aim": 0.005
+  },
+  // 近战相关
+  "melee": {
+    // 枪械距离参数，用来延升近战攻击范围
+    // 会与刺刀等配件的距离做加和
+    "distance": 1,
+    // 使用时的冷却时间
+    "cooldown": 0.8,
+    // 默认近战数据，会被配件的数据替换掉
+    "default": {
+      // 动画类型：没有枪托的为 melee_push，有枪托的为 melee_stock
+      "animation_type": "melee_stock",
+      // 刺刀距离参数，枪械里还有个刺刀攻击距离参数，两者做加和
+      "distance": 1,
+      // 刺刀范围角度
+      "range_angle": 30,
+      // 伤害值
+      "damage": 10,
+      // 击退效果
+      "knockback": 0.06,
+      // 前摇时长，单位：秒
+      "prep": 0.1
+    }
+  },
+  "allow_attachment_types": [
+    "scope",
+    "stock",
+    "grip",
+    "muzzle",
+    "extended_mag"
+  ],
+  "exclusive_attachments": {
+  }
+    // 用于默认瞄具等特殊场合
+//  "builtin_attachments": {
+//    "scope": "tacz:scope_standard_8x"
+//  }
+}

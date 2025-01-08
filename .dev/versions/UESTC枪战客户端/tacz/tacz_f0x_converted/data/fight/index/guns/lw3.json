@@ -1,0 +1,7 @@
+{
+  "name": "fight.gun.lw3.name",
+  "display": "fight:lw3_display",
+  "data": "fight:lw3_data",
+  "tooltip": "fight.gun.lw3.desc",
+  "type": "sniper"
+}

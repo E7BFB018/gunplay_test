@@ -1,0 +1,7 @@
+{
+  "name": "fight.gun.rpg7.name",
+  "display": "fight:rpg7_display",
+  "data": "fight:rpg7_data",
+  "tooltip": "fight.gun.rpg7.desc",
+  "type": "rpg"
+}

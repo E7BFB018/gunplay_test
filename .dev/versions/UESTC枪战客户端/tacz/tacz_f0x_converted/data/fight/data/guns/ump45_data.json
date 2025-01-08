@@ -1,0 +1,118 @@
+{
+  "ammo": "tacz:45acp",
+  "rpm": 500,
+  "bullet": {
+    "life": 0.55,
+    "bullet_amount": 1,
+    "damage": 5.6,
+    "tracer_count_interval": 0,
+    "extra_damage": {
+      "armor_ignore": 0.2,
+      "head_shot_multiplier": 1.5,
+      "damage_adjust": [
+        {"distance": 8, "damage": 5.2},
+        {"distance": 15, "damage": 4.4},
+        {"distance": 25, "damage": 4},
+        {"distance": "infinite", "damage": 2.5}
+      ]
+    },
+    "speed": 190,
+    "gravity": 0.15,
+    "knockback": 0.1,
+    "friction": 0.02,
+    "ignite": false,
+    "pierce": 1
+  },
+  "ammo_amount": 25,
+  "extended_mag_ammo_amount": [
+    32,
+    40,
+    48
+  ],
+  "bolt": "closed_bolt",
+  "reload": {
+    "type": "magazine",
+    "feed": {
+      "empty": 2.3,
+      "tactical": 1.5
+    },
+    "cooldown": {
+      "empty": 2.8,
+      "tactical": 2.1
+    }
+  },
+  "draw_time": 0.43,
+  "put_away_time": 0.27,
+  "aim_time": 0.28,
+  "sprint_time": 0.15,
+  "weight": 3.4,
+  "movement_speed": {
+    "base": 0.2,
+    "aim": 0.1,
+    "reload": 0.05
+  },
+  "crawl_recoil_multiplier": 0.75,
+  "fire_mode": [
+    "auto",
+    "burst"
+  ],
+  "burst_data": {
+    "continuous_shoot": false,
+    "count": 2,
+    "bpm": 700,
+    "min_interval": 0.35
+  },
+  "allow_attachment_types": [
+    "scope",
+    "muzzle",
+    "grip",
+    "extended_mag"
+  ],
+  "recoil": {
+    "pitch": [
+      {"time": 0, "value": [0.5, 0.5]},
+      {"time": 0.1, "value": [0.5, 0.5]},
+      {"time": 0.15, "value": [-0.15, -0.15]},
+      {"time": 0.3, "value": [0, 0]}
+    ],
+    "yaw": [
+      {"time": 0, "value": [-0.2, 0.15]},
+      {"time": 0.1, "value": [-0.2, 0.15]},
+      {"time": 0.25, "value": [0, 0]}
+    ]
+  },
+  "inaccuracy": {
+    "stand": 2.75,
+    "move": 3.25,
+    "sneak": 2.35,
+    "lie": 2,
+    "aim": 0.2
+  },
+  // 近战相关
+  "melee": {
+    // 枪械距离参数，用来延升近战攻击范围
+    // 会与刺刀等配件的距离做加和
+    "distance": 1,
+    // 使用时的冷却时间
+    "cooldown": 0.3,
+    // 默认近战数据，会被配件的数据替换掉
+    "default": {
+      // 动画类型：没有枪托的为 melee_push，有枪托的为 melee_stock
+      "animation_type": "melee_stock",
+      // 刺刀距离参数，枪械里还有个刺刀攻击距离参数，两者做加和
+      "distance": 1,
+      // 刺刀范围角度
+      "range_angle": 30,
+      // 伤害值
+      "damage": 6,
+      // 击退效果
+      "knockback": 0.02,
+      // 前摇时长，单位：秒
+      "prep": 0.1
+    }
+  },
+  "builtin_attachments": {
+      "extended_mag": "tacz:light_extended_mag_1",
+      "grip": "tacz:grip_vertical_ranger"
+  }
+}

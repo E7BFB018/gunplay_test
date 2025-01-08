@@ -1,0 +1,7 @@
+{
+  "name": "fight.gun.glock_17.name",
+  "display": "fight:glock_17_display",
+  "data": "fight:glock_17_data",
+  "tooltip": "fight.gun.glock_17.desc",
+  "type": "pistol"
+}

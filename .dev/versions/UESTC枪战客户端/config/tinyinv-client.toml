@@ -1,0 +1,21 @@
+
+[general]
+	#Should draw overlay over the disabled slots
+	disabled_slot_overlay = true
+	#Color of the disabled slot overlay
+	#Range: > 0
+	disabled_slot_overlay_color = 13027014
+	#Should hide the offhand slot? Ignored if disableOffhand in the common config is true
+	hide_offhand = false
+	#The maximal number of slots in a hotbar slot (0 = as many as fit the screen)
+	#Range: > 0
+	max_slots_in_hotbar_row = 18
+	#Alignment of the hotbar rows?
+	#Allowed Values: CENTER, LEFT, RIGHT
+	alignment = "CENTER"
+	#Order of hotbar rows?
+	#Allowed Values: NORMAL, REVERSE
+	order = "NORMAL"
+	#Should move and resize the chat so it is not obstructing the hotbar rows?
+	transform_chat = true
+

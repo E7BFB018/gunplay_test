@@ -1,0 +1,8 @@
+{
+  "name": "fight.gun.hk_g3.name",
+  "display": "fight:hk_g3_display",
+  "data": "fight:hk_g3_data",
+  "tooltip": "fight.gun.hk_g3.desc",
+  "type": "rifle",
+  "sort": 3
+}

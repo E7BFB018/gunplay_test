@@ -1,0 +1,20 @@
+
+#.
+#Semaphore settings
+[semaphores]
+	#.
+	#.
+	#Simplified semaphore placement (no upside-down placement)
+	simplifiedPlacement = true
+	#.
+	#Whether semaphore color order is reversed when the semaphores are oriented upside-down
+	flipYellowOrder = false
+	#.
+	#This value determines how far the contact network overhead and suspended chain wires can be linked at most.
+	#Range: 8 ~ 128
+	max_catenary_connection_distance = 90
+	#.
+	#This value determines how far a player can control remotely using the Animated Block Controller
+	#Range: 8 ~ 128
+	max_abc_control_distance = 90
+

@@ -1,0 +1,9 @@
+{
+  "id" : "aed7f0225b294db994dba936c8ad957b",
+  "name" : "Sally_Egg_",
+  "properties" : [ {
+    "name" : "textures",
+    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTcyOTE3ODAzMTA4MCwKICAicHJvZmlsZUlkIiA6ICJhZWQ3ZjAyMjViMjk0ZGI5OTRkYmE5MzZjOGFkOTU3YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTYWxseV9FZ2dfIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzNmMjBhZWQ2NGY0ZDRiZDFiM2Y1ZGZlNjBjYTc4NTlmZjlkZjMyMTU1YTJlMTE4Y2M2N2Q3YWQzNTcyYjhiOTkiCiAgICB9CiAgfQp9"
+  } ],
+  "profileActions" : [ ]
+}

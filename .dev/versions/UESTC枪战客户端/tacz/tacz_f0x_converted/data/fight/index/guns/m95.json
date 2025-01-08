@@ -1,0 +1,7 @@
+{
+  "name": "fight.gun.m95.name",
+  "display": "fight:m95_display",
+  "data": "fight:m95_data",
+  "tooltip": "fight.gun.m95.desc",
+  "type": "sniper"
+}

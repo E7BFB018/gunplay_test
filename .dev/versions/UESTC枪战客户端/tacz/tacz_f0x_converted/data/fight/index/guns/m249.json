@@ -1,0 +1,8 @@
+{
+  "name": "fight.gun.m249.name",
+  "display": "fight:m249_display",
+  "data": "fight:m249_data",
+  "tooltip": "fight.gun.m249.desc",
+  "type": "mg",
+  "sort": 1
+}

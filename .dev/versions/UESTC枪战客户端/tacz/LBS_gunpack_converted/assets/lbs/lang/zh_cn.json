@@ -1,0 +1,15 @@
+{
+  "pack.lbs.LBS_gunpack.name": "LBS 枪械包",
+  "pack.lbs.LBS_gunpack.desc": "泥电玩家专属枪包",
+
+
+  "lbs.gun.vector45_lbs.name": "§c§kxghx§l§6Fennec-碧森§c§kxghx",
+  "lbs.gun.scar_dm.name": "§c§kxghx§l§dSCAR-暗物质§c§kxghx",
+  "lbs.gun.lw3.name": "§c§kxghx§l§aLW3a1§c§kxghx",
+  "lbs.gun.tenggun.name": "藤棍",
+
+  "lbs.gun.vector45_lbs.desc": "“这个星球上从未出现过无法跨越的寒冬，在冰雪消融之时你却不在暖春之中”",
+  "lbs.gun.scar_dm.desc": "我宁愿做行将冻毙者脚边的炬火，即使这炬火转瞬即逝",
+  "lbs.gun.lw3.desc": "你能否独立山巅，任由风霜侵袭，直至沧海变为桑田，高山沉入海底?"
+
+}

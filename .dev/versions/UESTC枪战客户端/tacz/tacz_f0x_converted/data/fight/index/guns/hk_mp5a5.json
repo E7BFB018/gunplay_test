@@ -1,0 +1,7 @@
+{
+  "name": "fight.gun.hk_mp5a5.name",
+  "display": "fight:hk_mp5a5_display",
+  "data": "fight:hk_mp5a5_data",
+  "tooltip": "fight.gun.hk_mp5a5.desc",
+  "type": "smg"
+}

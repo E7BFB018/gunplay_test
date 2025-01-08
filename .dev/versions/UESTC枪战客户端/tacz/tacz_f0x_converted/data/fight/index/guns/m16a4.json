@@ -1,0 +1,8 @@
+{
+  "name": "fight.gun.m16a4.name",
+  "display": "fight:m16a4_display",
+  "data": "fight:m16a4_data",
+  "type": "rifle",
+  "tooltip": "fight.gun.m16a4.desc",
+  "sort": 4
+}

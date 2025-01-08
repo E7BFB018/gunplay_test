@@ -1,0 +1,124 @@
+{
+  "ammo": "tacz:9mm",
+  "rpm": 600,
+  "bullet": {
+    "life": 0.65,
+    "bullet_amount": 1,
+    "damage": 4.9,
+    "tracer_count_interval": 0,
+    "extra_damage": {
+      "armor_ignore": 0.15,
+      "head_shot_multiplier": 1.05,
+      "damage_adjust": [
+        {"distance": 15, "damage": 4.9},
+        {"distance": 25, "damage": 4.5},
+        {"distance": 35, "damage": 3.5},
+        {"distance": "infinite", "damage": 2.6}
+      ]
+    },
+    "speed": 180,
+    "gravity": 0.15,
+    "knockback": 0,
+    "friction": 0.025,
+    "ignite": false,
+    "pierce": 1
+  },
+  "ammo_amount": 42,
+  "extended_mag_ammo_amount": [
+    32,
+    40,
+    50
+  ],
+  "bolt": "open_bolt",
+  "reload": {
+    "type": "magazine",
+    "feed": {
+      "empty": 1.97,
+      "tactical": 1.17
+    },
+    "cooldown": {
+      "empty": 2.83,
+      "tactical": 1.77
+    }
+  },
+  "draw_time": 0.42,
+  "put_away_time": 0.43,
+  "aim_time": 0.04,
+  "sprint_time": 0.15,
+  "weight": 3.1,
+  "movement_speed": {
+    "base": 0.25,
+    "aim": 0.15,
+    "reload": 0.1
+  },
+  "crawl_recoil_multiplier": 0.75,
+  "fire_mode": [
+    "auto"
+  ],
+  "allow_attachment_types": [
+    "scope",
+    "muzzle",
+    "extended_mag"
+  ],
+  "recoil": {
+    "pitch": [
+      {"time": 0, "value": [0.95, 1]},
+      {"time": 0.1, "value": [0.35, 0.35]},
+      {"time": 0.15, "value": [-0.45, -0.3]},
+      {"time": 0.25, "value": [-0.05, 0.05]}
+    ],
+    "yaw": [
+      {"time": 0, "value": [-0.1, 0.1]},
+      {"time": 0.1, "value": [-0.15, 0.15]},
+      {"time": 0.19, "value": [0, 0]}
+    ]
+  },
+  "inaccuracy": {
+    "stand": 2.5,
+    "move": 3.2,
+    "sneak": 2.1,
+    "lie": 2.1,
+    "aim": 0.22
+  },
+  // 近战相关
+  "melee": {
+    // 枪械距离参数，用来延升近战攻击范围
+    // 会与刺刀等配件的距离做加和
+    "distance": 1,
+    // 使用时的冷却时间
+    // 会与刺刀等配件的冷却时间做加和
+    "cooldown": 0.4,
+    // 默认近战数据，会被配件的数据替换掉
+    "default": {
+      // 动画类型：没有枪托的为 melee_push，有枪托的为 melee_stock
+      "animation_type": "melee_push",
+      // 刺刀距离参数，枪械里还有个刺刀攻击距离参数，两者做加和
+      "distance": 1,
+      // 刺刀范围角度
+      "range_angle": 40,
+      // 刺刀冷却时间，枪械里还有个刺刀冷却时间参数，两者做加和
+      "cooldown": 0.2,
+      // 伤害值
+      "damage": 6,
+      // 击退效果
+      "knockback": 0.04,
+      // 前摇时长，单位：秒
+      "prep": 0.1
+    }
+  },
+  "builtin_attachments": {
+    "extended_mag": "tacz:light_extended_mag_3",
+    "muzzle": "tacz:muzzle_silence_ursus"
+  },
+  "exclusive_attachments": {
+    // 配件 ID，后面的数据和配件的 data 部分结构完全一致
+    "tacz:muzzle_silence_ursus": {
+      "silence": {
+        // 声音传播的范围，如果默认是 50 格，这里填入 -10，那么消音后传播距离为 40 格
+        "distance_addend": -18,
+        // 是否使用专门的消音后的音源
+        "use_silence_sound": true
+      }
+    }
+  }
+}

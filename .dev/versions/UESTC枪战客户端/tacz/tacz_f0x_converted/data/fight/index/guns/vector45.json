@@ -1,0 +1,7 @@
+{
+  "name": "fight.gun.vector45.name",
+  "display": "fight:vector45_display",
+  "data": "fight:vector45_data",
+  "tooltip": "fight.gun.vector45.desc",
+  "type": "smg"
+}

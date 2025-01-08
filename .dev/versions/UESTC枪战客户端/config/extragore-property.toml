@@ -1,0 +1,125 @@
+# ExtraGore Particle Group Configuration
+# ------------------------------------------------------
+# This file enables the creation of custom blood particle properties for various entities.
+# Begin by uniquely naming each property group to effectively manage different settings.
+
+# Particle Behavior Options:
+# - Bounce: The particle will bounce off surfaces like a solid object.
+# - Stick: The particle will stick to walls and other surfaces.
+# - Magic: Some particles will fall to the ground while the majority will fly up to the sky.
+# - None: The particle won't have any special effects.
+
+# Particle Weight Options:
+# - Heavy: The particle will sink to the bottom when it's underwater.
+# - Light: The particle will float up to the top of the water.
+
+# Particle State Options:
+# - Liquid: The particle will get larger during its lifetime.
+# - Solid: The particle will remain the same size all the time.
+
+# Color Settings:
+# Set an RGB color value to visually distinguish particles for various entities.
+
+# How to Use:
+# 1. Define a group with a name, including behavior, weight, state, color and entity values.
+# 2. Example:
+#    ["Color Group Name"]
+#    behavior = Choose from "Stuck", "Bounce" or "None"
+#    weight = Choose from "Heavy" or "Light"
+#    state = Choose from "Liquid" or "Solid"
+#    color = "R,G,B"
+#    entities = ["entityID1", "entityID2"]
+# 3. You can modify or delete any predefined groups, except for the red group. The red group is non editable and serves only to show you unused entities which are compatible with different color groups.
+# 4. Add your custom color groups under an already predefined group, except for the red one.
+# 5. Ensure each color group has a unique name and is properly structured.
+
+# Note: Incorrectly formatted lines or unrecognized entity IDs will be ignored.
+# ------------------------------------------------------
+
+["Violet Group"]
+behavior = "Magic"
+weight = "Light"
+state = "Liquid"
+color = "128,0,128"
+entities = ["minecraft:enderman", "minecraft:endermite", "minecraft:phantom", "minecraft:shulker", "minecraft:silverfish", "minecraft:warden", "minecraft:ender_dragon"]
+
+["White Group"]
+behavior = "Bounce"
+weight = "Heavy"
+state = "Solid"
+color = "255,255,255"
+entities = ["minecraft:skeleton", "minecraft:ghast", "minecraft:iron_golem", "minecraft:skeleton_horse", "minecraft:snow_golem", "minecraft:stray", "minecraft:vex", "minecraft:wither_skeleton", "minecraft:allay", "minecraft:wither"]
+
+["Green Group"]
+behavior = "Stuck"
+weight = "Light"
+state = "Liquid"
+color = "0,255,0"
+entities = ["minecraft:cave_spider", "minecraft:creeper", "minecraft:slime", "minecraft:spider", "minecraft:witch"]
+
+["Yellow Group"]
+behavior = "Bounce"
+weight = "Heavy"
+state = "Solid"
+color = "255,255,0"
+entities = ["minecraft:blaze", "minecraft:magma_cube", "minecraft:strider"]
+
+["Blue Group"]
+behavior = "None"
+weight = "Light"
+state = "Liquid"
+color = "0,0,255"
+entities = ["minecraft:squid", "minecraft:elder_guardian", "minecraft:guardian", "minecraft:glow_squid"]
+
+# Auto generated red color group - do not edit. Use this as reference for unused entity IDs.
+"255,0,0" = [
+    "minecraft:giant",
+    "minecraft:hoglin",
+    "minecraft:trader_llama",
+    "minecraft:horse",
+    "minecraft:polar_bear",
+    "minecraft:zombified_piglin",
+    "minecraft:llama",
+    "minecraft:pig",
+    "minecraft:husk",
+    "minecraft:turtle",
+    "minecraft:sheep",
+    "minecraft:tadpole",
+    "minecraft:goat",
+    "minecraft:dolphin",
+    "minecraft:cod",
+    "minecraft:donkey",
+    "minecraft:ravager",
+    "minecraft:cow",
+    "minecraft:piglin_brute",
+    "minecraft:bee",
+    "minecraft:illusioner",
+    "minecraft:salmon",
+    "minecraft:mooshroom",
+    "minecraft:drowned",
+    "minecraft:rabbit",
+    "minecraft:axolotl",
+    "minecraft:pillager",
+    "minecraft:zoglin",
+    "minecraft:parrot",
+    "minecraft:bat",
+    "minecraft:wandering_trader",
+    "minecraft:frog",
+    "minecraft:piglin",
+    "minecraft:mule",
+    "minecraft:sniffer",
+    "minecraft:vindicator",
+    "minecraft:zombie_horse",
+    "minecraft:camel",
+    "minecraft:evoker",
+    "minecraft:cat",
+    "minecraft:pufferfish",
+    "minecraft:fox",
+    "minecraft:tropical_fish",
+    "minecraft:ocelot",
+    "minecraft:chicken",
+    "minecraft:zombie",
+    "minecraft:wolf",
+    "minecraft:panda",
+    "minecraft:zombie_villager"
+]

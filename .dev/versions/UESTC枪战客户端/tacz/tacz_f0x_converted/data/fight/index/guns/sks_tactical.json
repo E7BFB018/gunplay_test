@@ -1,0 +1,7 @@
+{
+  "name": "fight.gun.sks_tactical.name",
+  "display": "fight:sks_tactical_display",
+  "data": "fight:sks_tactical_data",
+  "tooltip": "fight.gun.sks_tactical.desc",
+  "type": "rifle"
+}

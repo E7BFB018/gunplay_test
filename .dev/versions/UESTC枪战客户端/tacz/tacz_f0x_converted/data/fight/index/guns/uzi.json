@@ -1,0 +1,7 @@
+{
+  "name": "fight.gun.uzi.name",
+  "display": "fight:uzi_display",
+  "data": "fight:uzi_data",
+  "tooltip": "fight.gun.uzi.desc",
+  "type": "smg"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "fight.gun.mk14.name",
+  "display": "fight:mk14_display",
+  "data": "fight:mk14_data",
+  "tooltip": "fight.gun.mk14.desc",
+  "type": "rifle",
+  "sort": 4
+}

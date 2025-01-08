@@ -1,0 +1,8 @@
+{
+  "name": "fight.gun.scar_dm.name",
+  "display": "fight:scar_dm_display",
+  "data": "fight:scar_dm_data",
+  "tooltip": "fight.gun.scar_dm.desc",
+  "type": "rifle",
+  "sort": 4
+}

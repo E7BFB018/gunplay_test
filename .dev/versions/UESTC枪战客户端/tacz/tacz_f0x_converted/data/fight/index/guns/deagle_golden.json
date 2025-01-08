@@ -1,0 +1,7 @@
+{
+  "name": "fight.gun.deagle_golden.name",
+  "display": "fight:deagle_golden_display",
+  "data": "fight:deagle_golden_data",
+  "tooltip": "fight.gun.deagle_golden.desc",
+  "type": "pistol"
+}
